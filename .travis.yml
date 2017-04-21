@@ -394,4 +394,5 @@ script:
   - if [ "${_broken}" != "0" ]; then false; fi
   - if [ "${_running}" != "${_total}" ]; then false; fi
   - _count="$( curl -q localhost 2>/dev/null | grep -c OK )"
-  - if [ "${_count}" != "4" ]; then false; fi
+  - echo "${_count} / 4 OKs"
+  - if [ "${_count}" != "4" ]; then curl -vv localhost; false; fi
