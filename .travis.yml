@@ -395,4 +395,4 @@ script:
   - if [ "${_running}" != "${_total}" ]; then false; fi
   - _count="$( curl -q localhost 2>/dev/null | grep -c OK )"
   - echo "${_count} / 4 OKs"
-  - if [ "${_count}" != "4" ]; then curl -vv localhost; false; fi
+  - if [ "${_count}" != "4" ]; then curl -vv localhost; sudo find log -type f -exec sh -c 'echo "{}:\n-----------------"; cat "{}"; echo "\n\n"' \; false; fi
