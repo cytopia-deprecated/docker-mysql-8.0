@@ -13,7 +13,7 @@ LABEL \
 	image="mysql-8.0" \
 	vendor="cytopia" \
 	license="MIT" \
-	build-date="2017-04-21"
+	build-date="2017-05-17"
 
 
 ###
