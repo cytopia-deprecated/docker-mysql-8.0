@@ -1,6 +1,6 @@
 # MySQL 8.0 Docker
 
-<small>**Latest build:** 2017-07-01</small>
+<small>**Latest build:** 2017-08-30</small>
 
 [![Build Status](https://travis-ci.org/cytopia/docker-mysql-8.0.svg?branch=master)](https://travis-ci.org/cytopia/docker-mysql-8.0) [![](https://images.microbadger.com/badges/version/cytopia/mysql-8.0.svg)](https://microbadger.com/images/cytopia/mysql-8.0 "mysql-8.0") [![](https://images.microbadger.com/badges/image/cytopia/mysql-8.0.svg)](https://microbadger.com/images/cytopia/mysql-8.0 "mysql-8.0") [![](https://images.microbadger.com/badges/license/cytopia/mysql-8.0.svg)](https://microbadger.com/images/cytopia/mysql-8.0 "mysql-8.0")
 
@@ -124,4 +124,4 @@ Configuration files inside this docker are read in the following order:
 
 **[Version]**
 
-mysqld  Ver 8.0.1-dmr for Linux on x86_64 (MySQL Community Server (GPL))
+/usr/sbin/mysqld  Ver 8.0.2-dmr for Linux on x86_64 (MySQL Community Server (GPL))
